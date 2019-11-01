@@ -33,7 +33,7 @@ public class Segitiga implements GLSurfaceView.Renderer {
     public void initShapes(){
         float vertices[] = {
                 -0.6f, -0.5f, 0,
-                0.6f, -0.5f, 0,
+                -0.6f, 0.5f, 0,
                 0.0f, 0.5f, 0
         };
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
